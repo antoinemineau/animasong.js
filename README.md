@@ -9,7 +9,7 @@ _v0.1.0 (7/12/2014)_
 
 Features
 ---
-* Available actions: play, pause, change volume.
+* Available actions: play, pause, mute / change volume.
 * 1 song provider supported: Soundcloud (http://soundcloud.com/)
 * 2 animations: spectrum / equalizer
 
@@ -55,7 +55,7 @@ Change Logs
 
 **v0.1.0 (7/12/2012)**
 
-* Available Actions: pause / play, change volume.
+* Available Actions: pause / play, mute /change volume.
 * 2 animations: spectrum / equalizer
 * 1 provider: Soundcloud
 
