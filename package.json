@@ -1,0 +1,36 @@
+{
+  "name": "Animasong",
+  "description": "Animasong is a music player that creates animation based on the song played.",
+  "version": "0.1.0",
+  "homepage": "http://animasong.com",
+  "author": {
+    "name": "Antoine Mineau",
+    "url": "http://antoinemineau.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antoinemineau/animasong"
+  },
+  "bugs": {
+    "url": "https://github.com/antoinemineau/animasong/issues"
+  },
+  "licenses": [
+    {
+      "type": "GNU GPL v3.0",
+      "url": "https://github.com/antoinemineau/animasong/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.5.0",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "dancer": "~0.4.0",
+    "jquery": "~2.1.1",
+    "grunt-contrib-handlebars": "~0.9.1",
+    "screenfull": "~1.2.1",
+    "handlebars": "~2.0.0",
+    "grunt-contrib-less": "~0.12.0"
+  }
+}

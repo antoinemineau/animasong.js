@@ -1,0 +1,180 @@
+@charset "UTF-8";
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+}
+@font-face {
+  font-family: "animasong-app";
+  src: url("../fonts/animasong-app.eot");
+  src: url("../fonts/animasong-app.eot?#iefix") format("embedded-opentype"), url("../fonts/animasong-app.woff") format("woff"), url("../fonts/animasong-app.ttf") format("truetype"), url("../fonts/animasong-app.svg#animasong-app") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[data-icon]:before {
+  font-family: "animasong-app" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="animasong-icon-"]:before,
+[class*=" animasong-icon-"]:before {
+  font-family: "animasong-app" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.animasong-icon-soundcloud:before {
+  content: "c";
+}
+.animasong-icon-play:before {
+  content: "a";
+}
+.animasong-icon-pause:before {
+  content: "b";
+}
+.animasong-icon-info:before {
+  content: "d";
+}
+.animasong-icon-arrows-compress:before {
+  content: "f";
+}
+.animasong-icon-arrows-expand:before {
+  content: "g";
+}
+.animasong-icon-volume-strike:before {
+  content: "e";
+}
+.animasong-icon-volume:before {
+  content: "h";
+}
+.animasong {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #000000;
+  position: relative;
+}
+.animasong .animasong-networks {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.animasong .animasong-networks a {
+  text-decoration: none;
+}
+.animasong .animasong-networks .animasong-icon-info,
+.animasong .animasong-networks .animasong-icon-soundcloud {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 7px;
+}
+.animasong .animasong-canvas {
+  float: left;
+}
+.animasong .animasong-bar {
+  float: left;
+  width: 100%;
+  height: 27px;
+  border-top: 3px solid #36ba45;
+  line-height: 27px;
+}
+.animasong .animasong-bar .animasong-bar-left {
+  color: #36ba45;
+  float: left;
+  height: 100%;
+}
+.animasong .animasong-bar .animasong-bar-left .animasong-bar-play {
+  position: relative;
+  float: left;
+  height: 100%;
+}
+.animasong .animasong-bar .animasong-bar-left .animasong-bar-play .animasong-icon-pause,
+.animasong .animasong-bar .animasong-bar-left .animasong-bar-play .animasong-icon-play {
+  font-size: 17px;
+  cursor: pointer;
+  color: #36ba45;
+  padding: 0 10px;
+}
+.animasong .animasong-bar .animasong-bar-left .animasong-bar-play .animasong-bar-separator {
+  position: absolute;
+  top: -2.5px;
+  right: 0;
+  height: 27px;
+  width: 3px;
+  float: left;
+  border: 0;
+  background-color: #36ba45;
+  margin: 0;
+}
+.animasong .animasong-bar .animasong-bar-left .animasong-bar-volume {
+  margin: 0 10px;
+  float: left;
+}
+.animasong .animasong-bar .animasong-bar-left .animasong-bar-volume .animasong-bar-volume-slider {
+  margin-top: 7px;
+  margin-right: 10px;
+  border-radius: 25px;
+  height: 10px;
+  width: 50px;
+  background-color: #eeeeee;
+  cursor: pointer;
+  position: relative;
+  float: left;
+}
+.animasong .animasong-bar .animasong-bar-left .animasong-bar-volume .animasong-bar-volume-slider .animasong-bar-volume-slider-current {
+  position: absolute;
+  background-color: #36ba45;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 25px;
+}
+.animasong .animasong-bar .animasong-bar-left .animasong-bar-volume .animasong-icon-volume,
+.animasong .animasong-bar .animasong-bar-left .animasong-bar-volume .animasong-icon-volume-strike {
+  margin-top: 3px;
+  float: left;
+  color: #36ba45;
+  font-size: 17px;
+  cursor: pointer;
+}
+.animasong .animasong-bar .animasong-bar-song-name {
+  float: left;
+  height: 100%;
+  max-width: 200px;
+  max-width: -webkit-calc(100% - 237px);
+  max-width: -moz-calc(100% - 237px);
+  max-width: calc(100% - 237px);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: white;
+}
+.animasong .animasong-bar .animasong-bar-right {
+  float: right;
+  height: 100%;
+  margin-right: 10px;
+  margin-top: 3px;
+}
+.animasong .animasong-bar .animasong-bar-right .animasong-icon-arrows-expand,
+.animasong .animasong-bar .animasong-bar-right .animasong-icon-arrows-compress {
+  color: #36ba45;
+  font-size: 17px;
+  cursor: pointer;
+}

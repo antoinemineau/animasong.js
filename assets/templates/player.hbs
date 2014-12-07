@@ -1,0 +1,27 @@
+<div class="animasong cf" style="width:{{ player.width }}px; height:{{ player.height }}px">
+    <div class="animasong-networks">
+        <a target="_blank" href="{{ song.location }}">
+            <i class="animasong-icon-soundcloud"></i>
+        </a>
+        <a target="_blank" href="http://animasong.com">
+            <i class="animasong-icon-info"></i>
+        </a>
+    </div>
+    <canvas id="{{ id }}" class="animasong-canvas"></canvas>
+    <div class="animasong-bar cf">
+        <div class="animasong-bar-left">
+            <div class="animasong-bar-play">
+                <i></i>
+                <hr class="animasong-bar-separator"/>
+            </div>
+            <div class="animasong-bar-volume cf">
+                <div class="animasong-bar-volume-slider">
+                    <div class="animasong-bar-volume-slider-current"></div>
+                </div>
+                <i class="animasong-icon-volume"></i>
+            </div>
+        </div>
+        <div class="animasong-bar-song-name">
+        </div>
+    </div>
+</div>
