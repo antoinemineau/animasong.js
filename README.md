@@ -53,7 +53,7 @@ This project uses [grunt](https://github.com/cowboy/grunt) to build. Run `grunt`
 Change Logs
 ---
 
-**v0.1.0 (7/12/2012)**
+**v0.1.0 (7/12/2014)**
 
 * Available Actions: pause / play, mute /change volume.
 * 2 animations: spectrum / equalizer
