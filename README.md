@@ -3,7 +3,7 @@ animasong.js
 
 animasong.js is an html5 music player which uses [dancer.js](https://github.com/jsantell/dancer.js/) for analyzing the song and create animations.
 
-http://animasong.com
+http://animasong.antoinemineau.com
 
 _v0.1.0 (7/12/2014)_
 
